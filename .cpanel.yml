@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tastech/public_html/cpgit
+    - /bin/cp * $DEPLOYPATH
